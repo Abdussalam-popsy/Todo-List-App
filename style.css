@@ -13,6 +13,8 @@ body {
 
 header {
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 header, form {
@@ -22,7 +24,7 @@ header, form {
   align-items: center;
 }
 
-form input, form button {
+form input, form button, .user-action-button {
   padding: 0.5rem;
   font-size: 2rem;
   border: none;
